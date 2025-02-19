@@ -26,9 +26,9 @@ def send_telegram_notification():
             time.sleep(0.01)
             if fire_message == 30:
                 fire_message = 99
-                url = f"https://api.telegram.org/bot7787004134:AAHprAxq4B-Qq_wN3qiDrAYZkh-ZZIphiqE/sendMessage"
+                url = f"https://api.telegram.org/bot7787004136:AAHprAxq4B-Qq_wN3qiDrAYZkh-ZZIphiqE/sendMessage"
                 payload = {
-                    'chat_id': '-4536069253',
+                    'chat_id': '-0000000000',
                     'text': "ESTE ES UN SIMULACRO:\nSE DETECTA FUEGO 🔥\nEVACUAR EDIFICO 🦺"
                 }
                 #response = requests.post(url, json=payload)
